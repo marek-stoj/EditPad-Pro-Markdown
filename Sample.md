@@ -1,4 +1,6 @@
-﻿mailto:abc@def.ghj
+[homepage]: http://www.marekstoj.com "My Homepage"
+
+mailto:abc@def.ghj
 
 http://www.google.com
 

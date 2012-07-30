@@ -130,7 +130,7 @@ math should get its own line and be put in in double-dollarsigns:
 $$I = \int \rho R^{2} dV$$
 0
 TRUE
-16
+17
 Atx header 1
 
 ^#[^#\r\n]*$
@@ -407,6 +407,26 @@ FALSE
 FALSE
 open
 close
+
+
+FALSE
+
+Reference link
+
+^\s*\[[^\]]+\]:\s*.*? "[^"]+"$
+TRUE
+FALSE
+18
+0
+
+
+0
+FALSE
+FALSE
+FALSE
+FALSE
+
+
 
 
 FALSE
