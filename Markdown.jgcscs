@@ -7,8 +7,8 @@ marek.stoj@gmail.com
 http://www.marekstoj.com
 http://daringfireball.net/projects/markdown/
 TRUE
-
-
+<!--
+-->
 0
 117
 An h1 header
@@ -130,13 +130,113 @@ math should get its own line and be put in in double-dollarsigns:
 $$I = \int \rho R^{2} dV$$
 0
 TRUE
-1
+6
+Atx header 1
 
-
-
+^#[^#\r\n]*$
+TRUE
 FALSE
-FALSE
+33
 0
+
+
+0
+FALSE
+FALSE
+FALSE
+FALSE
+
+
+
+
+FALSE
+
+Atx header 2
+
+^##[^#\r\n]*$
+TRUE
+FALSE
+34
+0
+
+
+0
+FALSE
+FALSE
+FALSE
+FALSE
+
+
+
+
+FALSE
+
+Atx header 3
+
+^###[^#\r\n]*$
+TRUE
+FALSE
+35
+0
+
+
+0
+FALSE
+FALSE
+FALSE
+FALSE
+
+
+
+
+FALSE
+
+Atx header 4
+
+^####[^#\r\n]*$
+TRUE
+FALSE
+36
+0
+
+
+0
+FALSE
+FALSE
+FALSE
+FALSE
+
+
+
+
+FALSE
+
+Atx header 5
+
+^#####[^#\r\n]*$
+TRUE
+FALSE
+37
+0
+
+
+0
+FALSE
+FALSE
+FALSE
+FALSE
+
+
+
+
+FALSE
+
+Atx header 6
+
+^######[^#\r\n]*$
+TRUE
+FALSE
+38
 0
 
 
