@@ -130,7 +130,7 @@ math should get its own line and be put in in double-dollarsigns:
 $$I = \int \rho R^{2} dV$$
 0
 TRUE
-6
+11
 Atx header 1
 
 ^#[^#\r\n]*$
@@ -141,7 +141,7 @@ FALSE
 
 
 0
-FALSE
+TRUE
 FALSE
 FALSE
 FALSE
@@ -161,7 +161,7 @@ FALSE
 
 
 0
-FALSE
+TRUE
 FALSE
 FALSE
 FALSE
@@ -181,7 +181,7 @@ FALSE
 
 
 0
-FALSE
+TRUE
 FALSE
 FALSE
 FALSE
@@ -201,7 +201,7 @@ FALSE
 
 
 0
-FALSE
+TRUE
 FALSE
 FALSE
 FALSE
@@ -221,7 +221,7 @@ FALSE
 
 
 0
-FALSE
+TRUE
 FALSE
 FALSE
 FALSE
@@ -241,12 +241,112 @@ FALSE
 
 
 0
-FALSE
+TRUE
 FALSE
 FALSE
 FALSE
 
 
+
+
+FALSE
+
+Setext header 1
+
+^=+$
+TRUE
+FALSE
+33
+0
+
+
+0
+TRUE
+FALSE
+FALSE
+FALSE
+
+
+
+
+FALSE
+
+Setext header 2
+
+^-+$
+TRUE
+FALSE
+34
+0
+
+
+0
+TRUE
+FALSE
+FALSE
+FALSE
+
+
+
+
+FALSE
+
+Strong 1
+todo
+(?<open>(\*\*)).*?(?<close>\*\*)
+TRUE
+TRUE
+5
+0
+
+
+0
+TRUE
+FALSE
+FALSE
+FALSE
+open
+close
+
+
+FALSE
+
+Strong 2
+todo
+(?<open>(__)).*?(?<close>__)
+TRUE
+TRUE
+5
+0
+
+
+0
+TRUE
+FALSE
+FALSE
+FALSE
+open
+close
+
+
+FALSE
+
+Emphasis 1
+todo
+(?<open>(\*)).*?(?<close>\*)
+TRUE
+TRUE
+3
+0
+
+
+0
+TRUE
+FALSE
+FALSE
+FALSE
+open
+close
 
 
 FALSE
