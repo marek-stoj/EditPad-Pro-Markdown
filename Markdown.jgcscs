@@ -411,26 +411,6 @@ close
 
 FALSE
 
-Reference link
-
-^\s*\[[^\]]+\]:\s*.*? "[^"]+"$
-TRUE
-FALSE
-18
-0
-
-
-0
-FALSE
-FALSE
-FALSE
-FALSE
-
-
-
-
-FALSE
-
 URL
 
 3
@@ -461,6 +441,26 @@ TRUE
 FALSE
 2
 3
+
+
+0
+FALSE
+FALSE
+FALSE
+FALSE
+
+
+
+
+FALSE
+
+Reference link
+
+^\s*\[[^\]]+\]:\s*.*? "[^"]+"$
+TRUE
+FALSE
+18
+0
 
 
 0

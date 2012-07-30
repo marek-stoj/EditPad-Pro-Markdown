@@ -1,3 +1,5 @@
+This is my [homepage][homepage].
+
 [homepage]: http://www.marekstoj.com "My Homepage"
 
 mailto:abc@def.ghj
