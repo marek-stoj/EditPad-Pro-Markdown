@@ -130,7 +130,7 @@ math should get its own line and be put in in double-dollarsigns:
 $$I = \int \rho R^{2} dV$$
 0
 TRUE
-14
+16
 Atx header 1
 
 ^#[^#\r\n]*$
@@ -407,6 +407,49 @@ FALSE
 FALSE
 open
 close
+
+
+FALSE
+
+URL
+
+3
+\b(?:(?:https?|ftp|file)://|www\.|ftp\.)(?:\([-A-Z0-9+&@#/%=~_|$?!:,.]*\)|[-A-Z0-9+&@#/%=~_|$?!:,.])*(?:\([-A-Z0-9+&@#/%=~_|$?!:,.]*\)|[A-Z0-9+&@#/%=~_|$])
+|"(?:(?:https?|ftp|file)://|www\.|ftp\.)[^"\r\n]+"?
+|''(?:(?:https?|ftp|file)://|www\.|ftp\.)[^''\r\n]+''?
+TRUE
+FALSE
+2
+1
+
+
+0
+FALSE
+TRUE
+FALSE
+FALSE
+
+
+
+
+FALSE
+
+Mailto
+
+\b(?:mailto:)?[A-Z0-9._%+-]++@(?:[A-Z0-9-]++\.)++[A-Z]{2,6}+\b
+TRUE
+FALSE
+2
+3
+
+
+0
+FALSE
+FALSE
+FALSE
+FALSE
+
+
 
 
 FALSE
