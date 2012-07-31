@@ -78,34 +78,34 @@ This is my [homepage][homepage2].
 
 http://www.google.com
 
-This is ``inline code
+This is ``inline code  
 spanning multiple lines with a backtick (`)``.
 
 This is ``inline code with a backtick (`)``.
 
 This is `inline code`.
 
-This is `inline code
+This is `inline code  
 spanning multiple lines`.
 
 This is _emphasized text_.
 
-This is _emphasized text
+This is _emphasized text  
 spanning multiple lines_.
 
 This is *emphasized text*.
 
-This is *emphasized text
+This is *emphasized text  
 spanning multiple lines*.
 
 This is __strong text__.
 
-This is __strong text
+This is __strong text  
 spanning multiple lines__.
 
 This is **strong text**.
 
-This is **strong text
+This is **strong text  
 spanning multiple lines**.
 
 Setext header 1 
