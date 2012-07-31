@@ -114,6 +114,8 @@ This is my [homepage][homepage2].
 
 http://www.google.com
 
+---
+
 This is ``inline code  
 spanning multiple lines with a backtick (`)``.
 
@@ -124,6 +126,10 @@ This is `inline code`.
 This is `inline code  
 spanning multiple lines`.
 
+---
+
+This should \_not be emphasized\_.
+
 This should _not be emphasized _.
 
 This should _ not be emphasized.
@@ -132,6 +138,10 @@ This is _emphasized text_.
 
 This is _emphasized text  
 spanning multiple lines_.
+
+---
+
+This should \*not be emphasized\*.
 
 This should *not be emphasized *.
 
@@ -142,6 +152,10 @@ This is *emphasized text*.
 This is *emphasized text  
 spanning multiple lines*.
 
+---
+
+This should \__not be strong text but emphasized (TODO)\__.
+
 This should __not be strong text __.
 
 This should __ not be strong text.
@@ -151,6 +165,10 @@ This is __strong text__.
 This is __strong text  
 spanning multiple lines__.
 
+---
+
+This should \**not be strong text but emphasized (TODO)\**.
+
 This should **not be strong text **.
 
 This should ** not be strong text.
@@ -159,6 +177,8 @@ This is **strong text**.
 
 This is **strong text  
 spanning multiple lines**.
+
+---
 
 Setext header 1 
 ===============

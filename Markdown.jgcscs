@@ -352,8 +352,8 @@ FALSE
 FALSE
 
 Strong 1
-
-(?<open>\*\*(?! ))[^\*]+?(?<close>(?<! )\*\*)
+asterisks
+(?<open>(?<!\\)\*\*(?! ))[^\*]+?(?<close>(?<![ \\])\*\*)
 TRUE
 TRUE
 5
@@ -372,8 +372,8 @@ close
 FALSE
 
 Strong 2
-
-(?<open>__(?! ))[^_]+?(?<close>(?<! )__)
+underscores
+(?<open>(?<!\\)__(?! ))[^_]+?(?<close>(?<![ \\])__)
 TRUE
 TRUE
 5
@@ -392,8 +392,8 @@ close
 FALSE
 
 Emphasis 1
-
-(?<open>\*(?! ))[^\*]+?(?<close>(?<! )\*)
+asterisk
+(?<open>(?<!\\)\*(?! ))[^\*]+?(?<close>(?<![ \\])\*)
 TRUE
 TRUE
 3
@@ -412,8 +412,8 @@ close
 FALSE
 
 Emphasis 2
-
-(?<open>_(?! ))[^_]+?(?<close>(?<! )_)
+underscore
+(?<open>(?<!\\)_(?! ))[^_]+?(?<close>(?<![ \\])_)
 TRUE
 TRUE
 3
