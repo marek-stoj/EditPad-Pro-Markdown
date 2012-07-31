@@ -714,9 +714,9 @@ FALSE
 
 FALSE
 
-Dashes
+Quotes
 
-^ {0,3}>
+^ {0,3}>( {0,3}>)?
 TRUE
 FALSE
 23
