@@ -1,3 +1,19 @@
+Here's some code indented with 4 spaces:
+
+    public class SomeClass {
+      public void DoSomething() {
+        Console.WriteLine("I'm doing something.");
+      }
+    }
+
+Here's some code indented with tab:
+
+	public class SomeClass {
+	  public void DoSomething() {
+	    Console.WriteLine("I'm doing something.");
+	  }
+	}
+
 * * * *
 
 * * * *
