@@ -293,7 +293,7 @@ FALSE
 
 Horizontal rule
 
-^(( |\t)*\*){3,}$|^(( |\t)*-){3,}$
+^(( |\t)*\*){3,}( |\t)*$|^(( |\t)*-){3,}( |\t)*$
 TRUE
 FALSE
 31
@@ -313,7 +313,7 @@ FALSE
 
 Unordered list
 
-^( |\t)*(\*|-)( |\t)
+^( |\t)*(\*|-|\+)( |\t)
 TRUE
 FALSE
 11
@@ -353,7 +353,7 @@ FALSE
 
 Strong 1
 
-(?<open>\*\*)[^\*].*?(?<close>\*\*)
+(?<open>\*\*(?! ))[^\*]+?(?<close>(?<! )\*\*)
 TRUE
 TRUE
 5
@@ -373,7 +373,7 @@ FALSE
 
 Strong 2
 
-(?<open>__)[^_].*?(?<close>__)
+(?<open>__(?! ))[^_]+?(?<close>(?<! )__)
 TRUE
 TRUE
 5
@@ -393,7 +393,7 @@ FALSE
 
 Emphasis 1
 
-(?<open>\*)[^\*].*?(?<close>\*)
+(?<open>\*(?! ))[^\*]+?(?<close>(?<! )\*)
 TRUE
 TRUE
 3
@@ -413,7 +413,7 @@ FALSE
 
 Emphasis 2
 
-(?<open>_)[^_]+?(?<close>_)
+(?<open>_(?! ))[^_]+?(?<close>(?<! )_)
 TRUE
 TRUE
 3
@@ -556,7 +556,7 @@ FALSE
 
 Reference link
 
-\[[^\]]+\]\[[^\]]+\]
+\[[^\]]+\]\[[^\]]*\]
 TRUE
 FALSE
 17
@@ -655,11 +655,11 @@ FALSE
 FALSE
 
 Hard line break
-
-  $
+two spaces at the end of the line not preceded by a space, LF or CR
+(?<![ \r\n])  $
 TRUE
 FALSE
-31
+28
 0
 \1
 
