@@ -130,7 +130,7 @@ math should get its own line and be put in in double-dollarsigns:
 $$I = \int \rho R^{2} dV$$
 0
 TRUE
-17
+21
 Atx header 1
 
 ^#[^#\r\n]*$
@@ -420,7 +420,7 @@ URL
 TRUE
 FALSE
 2
-1
+4
 
 
 0
@@ -434,14 +434,34 @@ FALSE
 
 FALSE
 
-Mailto
-
-\b(?:mailto:)?[A-Z0-9._%+-]++@(?:[A-Z0-9-]++\.)++[A-Z]{2,6}+\b
+E-mail
+TODO (action doesn't work properly)
+<([A-Z0-9._%+-]++@(?:[A-Z0-9-]++\.)++[A-Z]{2,6}+)>
 TRUE
 FALSE
-2
+13
 3
+\1
 
+0
+FALSE
+FALSE
+FALSE
+FALSE
+
+
+
+
+FALSE
+
+Inline link
+
+\[[^\]]+\]\(([^\)"]+)( "[^"]*")?\)
+TRUE
+FALSE
+17
+4
+\1
 
 0
 FALSE
@@ -456,12 +476,72 @@ FALSE
 
 Reference link
 
-^\s*\[[^\]]+\]:\s*.*? "[^"]+"$
+\[[^\]]+\]\[[^\]]+\]
+TRUE
+FALSE
+17
+0
+
+
+0
+FALSE
+FALSE
+FALSE
+FALSE
+
+
+
+
+FALSE
+
+Inline image
+
+!\[[^\]]+\]\(([^\)"]+)( "[^"]*")?\)
+TRUE
+FALSE
+7
+4
+\1
+
+0
+FALSE
+FALSE
+FALSE
+FALSE
+
+
+
+
+FALSE
+
+Reference image
+
+!\[[^\]]+\]\[[^\]]+\]
+TRUE
+FALSE
+7
+0
+
+
+0
+FALSE
+FALSE
+FALSE
+FALSE
+
+
+
+
+FALSE
+
+Referenced link or image
+
+^\s*\[[^\]]+\]:\s*(.*?)(\s*"[^"]+")?$
 TRUE
 FALSE
 18
-0
-
+4
+\1
 
 0
 FALSE

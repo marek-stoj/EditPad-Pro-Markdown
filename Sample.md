@@ -1,8 +1,28 @@
-This is my [homepage][homepage].
+This is an ![image][lorem1].
+This is an ![image][lorem2].
 
-[homepage]: http://www.marekstoj.com "My Homepage"
+[lorem1]: http://lorempixel.com/output/abstract-q-c-32-32-9.jpg
+[lorem2]: http://lorempixel.com/output/abstract-q-c-32-32-9.jpg "Lorem Pixel"
 
-mailto:abc@def.ghj
+This is ![an image](http://lorempixel.com/output/abstract-q-c-32-32-9.jpg "Lorem Pixel").
+
+This is ![an image](http://lorempixel.com/output/abstract-q-c-32-32-9.jpg "").
+
+This is ![an image](http://lorempixel.com/output/abstract-q-c-32-32-9.jpg).
+
+This is my [homepage](http://www.marekstoj.com "Click me!").
+
+This is my [homepage](http://www.marekstoj.com "").
+
+This is my [homepage](http://www.marekstoj.com).
+
+This is my [homepage][homepage1].
+This is my [homepage][homepage2].
+
+[homepage1]: http://www.marekstoj.com
+[homepage2]: http://www.marekstoj.com "My Homepage"
+
+<abc@def.ghj>
 
 http://www.google.com
 
