@@ -133,7 +133,7 @@ TRUE
 30
 Atx header 1
 
-^#[^#\r\n]*$
+^#[^#].*$
 TRUE
 FALSE
 33
@@ -153,7 +153,7 @@ FALSE
 
 Atx header 2
 
-^##[^#\r\n]*$
+^##[^#].*$
 TRUE
 FALSE
 34
@@ -173,7 +173,7 @@ FALSE
 
 Atx header 3
 
-^###[^#\r\n]*$
+^###[^#].*$
 TRUE
 FALSE
 35
@@ -193,7 +193,7 @@ FALSE
 
 Atx header 4
 
-^####[^#\r\n]*$
+^####[^#].*$
 TRUE
 FALSE
 36
@@ -213,7 +213,7 @@ FALSE
 
 Atx header 5
 
-^#####[^#\r\n]*$
+^#####[^#].*$
 TRUE
 FALSE
 37
