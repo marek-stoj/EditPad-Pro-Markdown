@@ -1,9 +1,34 @@
+* * * *
+
+* * * *
+
+* * *
+
+- - - - -
+
+- - - -
+
+- - -
+
+
+****
+
+***
+
+***
+
+-----
+
+----
+
+---
+
 Ordered list:
 
 1. asdsad
 2. aqweqwe
 
-Unordered list:
+Not unordered list:
 
 -Item 1
 -Item 2
@@ -83,7 +108,7 @@ This is **strong text**.
 This is **strong text
 spanning multiple lines**.
 
-Setext header 1
+Setext header 1 
 ===============
 
 Setext header 2

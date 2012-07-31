@@ -130,7 +130,7 @@ math should get its own line and be put in in double-dollarsigns:
 $$I = \int \rho R^{2} dV$$
 0
 TRUE
-25
+26
 Atx header 1
 
 ^#[^#\r\n]*$
@@ -143,7 +143,7 @@ FALSE
 0
 TRUE
 FALSE
-FALSE
+TRUE
 FALSE
 
 
@@ -163,7 +163,7 @@ FALSE
 0
 TRUE
 FALSE
-FALSE
+TRUE
 FALSE
 
 
@@ -183,7 +183,7 @@ FALSE
 0
 TRUE
 FALSE
-FALSE
+TRUE
 FALSE
 
 
@@ -203,7 +203,7 @@ FALSE
 0
 TRUE
 FALSE
-FALSE
+TRUE
 FALSE
 
 
@@ -223,7 +223,7 @@ FALSE
 0
 TRUE
 FALSE
-FALSE
+TRUE
 FALSE
 
 
@@ -233,7 +233,7 @@ FALSE
 
 Atx header 6
 
-^######[^#\r\n]*$
+^(######[^#].*)$
 TRUE
 FALSE
 38
@@ -243,7 +243,7 @@ FALSE
 0
 TRUE
 FALSE
-FALSE
+TRUE
 FALSE
 
 
@@ -253,7 +253,7 @@ FALSE
 
 Setext header 1
 
-^=+$
+^.*?[^\s].*?(\r|\n|(\r\n)|(\n\r))^=+$
 TRUE
 FALSE
 33
@@ -263,7 +263,7 @@ FALSE
 0
 TRUE
 FALSE
-FALSE
+TRUE
 FALSE
 
 
@@ -273,7 +273,7 @@ FALSE
 
 Setext header 2
 
-^-+$
+^.*?[^\s].*?(\r|\n|(\r\n)|(\n\r))^-+$
 TRUE
 FALSE
 34
@@ -283,7 +283,27 @@ FALSE
 0
 TRUE
 FALSE
+TRUE
 FALSE
+
+
+
+
+FALSE
+
+Horizontal rule
+
+^(( |\t)*\*){3,}$|^(( |\t)*-){3,}$
+TRUE
+FALSE
+31
+0
+\1
+
+0
+FALSE
+FALSE
+TRUE
 FALSE
 
 
@@ -293,7 +313,7 @@ FALSE
 
 Unordered list
 
-^\s*(\*|-)\s
+^( |\t)*(\*|-)( |\t)
 TRUE
 FALSE
 11
@@ -313,7 +333,7 @@ FALSE
 
 Ordered list
 
-^\s*\d+\.\s
+^( |\t)*\d+\.( |\t)
 TRUE
 FALSE
 11
@@ -333,7 +353,7 @@ FALSE
 
 Strong 1
 
-(?<open>\*\*).*?(?<close>\*\*)
+(?<open>\*\*)[^\*].*?(?<close>\*\*)
 TRUE
 TRUE
 5
@@ -353,7 +373,7 @@ FALSE
 
 Strong 2
 
-(?<open>__).*?(?<close>__)
+(?<open>__)[^_].*?(?<close>__)
 TRUE
 TRUE
 5
@@ -373,7 +393,7 @@ FALSE
 
 Emphasis 1
 
-(?<open>\*).*?(?<close>\*)
+(?<open>\*)[^\*].*?(?<close>\*)
 TRUE
 TRUE
 3
@@ -393,7 +413,7 @@ FALSE
 
 Emphasis 2
 
-(?<open>_).*?(?<close>_)
+(?<open>_)[^_]+?(?<close>_)
 TRUE
 TRUE
 3
@@ -413,7 +433,7 @@ FALSE
 
 Code inline single
 
-(?<open>`)[^`].*?(?<close>[^`]`)
+(?<open>`)[^`]+?(?<close>`)
 TRUE
 TRUE
 32
@@ -433,7 +453,7 @@ FALSE
 
 Code inline double
 
-(?<open>``).*?(?<close>``)
+(?<open>``)[^`].*?(?<close>``)
 TRUE
 TRUE
 32
