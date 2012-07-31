@@ -1,3 +1,18 @@
+These are some named entities: &gt; &larrow;
+
+not-em-nor-en-dash  
+en --- dash  
+em -- dash
+en---dash  
+em--dash
+
+Not ellipsis .. .  
+elli...psis
+ellipsis . . .  
+ellipsis. . .  
+ellipsis ...  
+ellipsis...  
+
 Here's some code indented with 4 spaces:
 
     public class SomeClass {
@@ -81,8 +96,6 @@ Unordered list:
 
 * Item 1
 * Item 2
-
-These are some named entities: &gt; &larrow;
 
 This is an ![image][lorem1].  
 This is an ![image][lorem2].

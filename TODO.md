@@ -12,3 +12,7 @@
 3. Mailto action doesn't work: <test@test.com> (a path is prepended to the address).
 
 4. Process multiline matches paragraph-wise? See points 1 and 2 above -- emphasis "leaks" between them.
+
+5. Markdown coloring should be disabled in **block-level** HTML elements, eg.:
+   
+   <div>There shold be **no Markdown syntax coloring** here.</div>
