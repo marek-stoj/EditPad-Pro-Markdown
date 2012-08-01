@@ -3,6 +3,36 @@ EditPad-Pro-Markdown
 
 Custom [Markdown][md-homepage] syntax coloring scheme for [EditPad Pro][editpad-homepage].
 
+Screenshots:
+------------
+
+<table>
+  <tr>
+    <td>
+      <a href="https://lh3.googleusercontent.com/-DPNPuxj_E_k/UBlyPZ20HcI/AAAAAAAACDI/0nf9FfPf288/s1024/ss-fresh-air.png">
+        <img src="https://lh3.googleusercontent.com/-DPNPuxj_E_k/UBlyPZ20HcI/AAAAAAAACDI/0nf9FfPf288/s288/ss-fresh-air.png" alt="Fresh Air" />
+      </a>
+    </td>
+    <td>
+      <a href="https://lh5.googleusercontent.com/-eZYMpLgpqFY/UBlyPd7emPI/AAAAAAAACDM/ECr6D3fbyoE/s1024/ss-night.png">
+        <img src="https://lh5.googleusercontent.com/-eZYMpLgpqFY/UBlyPd7emPI/AAAAAAAACDM/ECr6D3fbyoE/s288/ss-night.png" alt="Night" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://lh5.googleusercontent.com/-8iay3b2c0mQ/UBlyP9akdhI/AAAAAAAACDU/bipUTcB4ouA/s1024/ss-paper-light.png">
+        <img src="https://lh5.googleusercontent.com/-8iay3b2c0mQ/UBlyP9akdhI/AAAAAAAACDU/bipUTcB4ouA/s288/ss-paper-light.png" alt="Paper Light" />
+      </a>
+    </td>
+    <td>
+      <a href="https://lh4.googleusercontent.com/-HWklrPd4qfA/UBlyPQF9i6I/AAAAAAAACDQ/aGmw-xtvmVs/s1024/ss-paper-dark.png">
+        <img src="https://lh4.googleusercontent.com/-HWklrPd4qfA/UBlyPQF9i6I/AAAAAAAACDQ/aGmw-xtvmVs/s288/ss-paper-dark.png" alt=Paper Dark"" />
+      </a>
+    </td>
+  </tr>
+</table>
+
 Installation:
 -------------
 
@@ -40,36 +70,6 @@ BG0=0
 ; ...
 ```
   4. Restart EditPad Pro if you had it opened.
-
-Screenshots:
-------------
-
-<table>
-  <tr>
-    <td>
-      <a href="https://lh3.googleusercontent.com/-DPNPuxj_E_k/UBlyPZ20HcI/AAAAAAAACDI/0nf9FfPf288/s1024/ss-fresh-air.png">
-        <img src="https://lh3.googleusercontent.com/-DPNPuxj_E_k/UBlyPZ20HcI/AAAAAAAACDI/0nf9FfPf288/s288/ss-fresh-air.png" alt="Fresh Air" />
-      </a>
-    </td>
-    <td>
-      <a href="https://lh5.googleusercontent.com/-eZYMpLgpqFY/UBlyPd7emPI/AAAAAAAACDM/ECr6D3fbyoE/s1024/ss-night.png">
-        <img src="https://lh5.googleusercontent.com/-eZYMpLgpqFY/UBlyPd7emPI/AAAAAAAACDM/ECr6D3fbyoE/s288/ss-night.png" alt="Night" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://lh5.googleusercontent.com/-8iay3b2c0mQ/UBlyP9akdhI/AAAAAAAACDU/bipUTcB4ouA/s1024/ss-paper-light.png">
-        <img src="https://lh5.googleusercontent.com/-8iay3b2c0mQ/UBlyP9akdhI/AAAAAAAACDU/bipUTcB4ouA/s288/ss-paper-light.png" alt="Paper Light" />
-      </a>
-    </td>
-    <td>
-      <a href="https://lh4.googleusercontent.com/-HWklrPd4qfA/UBlyPQF9i6I/AAAAAAAACDQ/aGmw-xtvmVs/s1024/ss-paper-dark.png">
-        <img src="https://lh4.googleusercontent.com/-HWklrPd4qfA/UBlyPQF9i6I/AAAAAAAACDQ/aGmw-xtvmVs/s288/ss-paper-dark.png" alt=Paper Dark"" />
-      </a>
-    </td>
-  </tr>
-</table>
 
 Kudos:
 ------
