@@ -1,11 +1,9 @@
 1. Escaping asterisks and underscores:
-
   - \**this text should not be strong but it should be emphasized\**
   - \__this text should not be strong but it should be emphasized\__
   - \***this text should not be emphasized but is should be strong**\*
 
 2. Nesting of emphases and strongs:
-
   - **_this text should be both strong and emphasized_**
   - __*this text should be both strong and emphasized*__
 
