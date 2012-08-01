@@ -13,8 +13,7 @@
 
 4. Process multiline matches paragraph-wise? See points 1 and 2 above -- emphasis "leaks" between them.
 
-5. Markdown coloring should be disabled in **block-level** HTML elements, eg.:
-   
+5. Markdown coloring should be disabled in **block-level** HTML elements, eg.:  
    <div>There shold be **no Markdown syntax coloring** here.</div>
 
 6. Handling and color of HTML comments. <!-- test, _test_ test -->
