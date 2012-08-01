@@ -15,3 +15,7 @@
    <div>There shold be **no Markdown syntax coloring** here.</div>
 
 6. Handling and color of HTML comments. <!-- test, _test_ test -->
+
+7. Add support for triple backticks for code blocks.
+
+8. Coloring dosen't always refresh immediately (it's probably due to multiline regexes).
