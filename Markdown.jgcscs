@@ -136,7 +136,7 @@ Atx header 1
 ^#[^#].*$
 TRUE
 FALSE
-33
+26
 0
 
 
@@ -156,7 +156,7 @@ Atx header 2
 ^##[^#].*$
 TRUE
 FALSE
-34
+27
 0
 
 
@@ -256,7 +256,7 @@ Setext header 1
 ^.*?[^\s].*?(\r|\n|(\r\n)|(\n\r))^=+$
 TRUE
 FALSE
-33
+26
 0
 
 
@@ -276,7 +276,7 @@ Setext header 2
 ^.*?[^\s].*?(\r|\n|(\r\n)|(\n\r))^-+$
 TRUE
 FALSE
-34
+27
 0
 
 
@@ -296,7 +296,7 @@ Horizontal rule
 ^(( |\t)*\*){3,}( |\t)*$|^(( |\t)*-){3,}( |\t)*$
 TRUE
 FALSE
-31
+34
 0
 \1
 
@@ -639,7 +639,7 @@ Named entity
 &(?:#[0-9]++|#x[0-9A-F]++|[A-Z][A-Z0-9]++);
 TRUE
 FALSE
-23
+15
 0
 \1
 
@@ -659,7 +659,7 @@ two spaces at the end of the line not preceded by a space, LF or CR
 (?<![ \r\n])  $
 TRUE
 FALSE
-28
+31
 0
 \1
 
