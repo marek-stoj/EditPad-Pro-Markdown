@@ -12,31 +12,31 @@ Installation:
   
   3. Inside this `ini` file create (or edit if it exists) a custom color palettes section, eg.:
 ```ini
-     [SyntaxColors]
-     Count=2
-     Name0=Paper Light
-     Name1=Paper Dark
+[SyntaxColors]
+Count=2
+Name0=Paper Light
+Name1=Paper Dark
 ```
 
   4. Also inside this `ini` file add color palette sections (copied from provided `Colors_*.ini` files). Remember to number them appropriately, eg.:
-     ```ini
-     [SyntaxColors0]
-     FG1=-16777202
-     BG1=8421504
-     ; ...
-     [SyntaxColorsRegex0]
-     FG1=-16777202
-     BG1=8421504
-     ; ...
-     [SyntaxColors1]
-     FG0=16777215
-     BG0=0
-     ; ...
-     [SyntaxColorsRegex1]
-     FG0=16777215
-     BG0=0
-     ; ...
-     ```
+```ini
+[SyntaxColors0]
+FG1=-16777202
+BG1=8421504
+; ...
+[SyntaxColorsRegex0]
+FG1=-16777202
+BG1=8421504
+; ...
+[SyntaxColors1]
+FG0=16777215
+BG0=0
+; ...
+[SyntaxColorsRegex1]
+FG0=16777215
+BG0=0
+; ...
+```
   4. Restart EditPad Pro if you had it opened.
 
 Kudos:
