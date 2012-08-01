@@ -130,7 +130,7 @@ math should get its own line and be put in in double-dollarsigns:
 $$I = \int \rho R^{2} dV$$
 0
 TRUE
-30
+29
 Atx header 1
 
 ^#[^#].*$
@@ -491,35 +491,12 @@ FALSE
 
 FALSE
 
-URL
-
-3
-\b(?:(?:https?|ftp|file)://|www\.|ftp\.)(?:\([-A-Z0-9+&@#/%=~_|$?!:,.]*\)|[-A-Z0-9+&@#/%=~_|$?!:,.])*(?:\([-A-Z0-9+&@#/%=~_|$?!:,.]*\)|[A-Z0-9+&@#/%=~_|$])
-|"(?:(?:https?|ftp|file)://|www\.|ftp\.)[^"\r\n]+"?
-|''(?:(?:https?|ftp|file)://|www\.|ftp\.)[^''\r\n]+''?
-TRUE
-FALSE
-2
-4
-
-
-0
-FALSE
-TRUE
-FALSE
-FALSE
-
-
-
-
-FALSE
-
 E-mail
 
 <([A-Z0-9._%+-]++@(?:[A-Z0-9-]++\.)++[A-Z]{2,6}+)>
 TRUE
 FALSE
-13
+16
 3
 \1
 
