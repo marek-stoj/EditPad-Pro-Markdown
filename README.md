@@ -11,14 +11,16 @@ Installation:
   2. Open `EditPadPro7.ini` located in you 'Roaming' folder, eg.: `C:\Users\YourUsername\AppData\Roaming\JGsoft\EditPad Pro 7`.
   
   3. Inside this `ini` file create (or edit if it exists) a custom color palettes section, eg.:
+```ini
      <pre>
      [SyntaxColors]
      Count=2
      Name0=Paper Light
      Name1=Paper Dark</pre>
+```
 
   4. Also inside this `ini` file add color palette sections (copied from provided `Colors_*.ini` files). Remember to number them appropriately, eg.:
-     <pre>
+     ```ini
      [SyntaxColors0]
      FG1=-16777202
      BG1=8421504
@@ -34,8 +36,8 @@ Installation:
      [SyntaxColorsRegex1]
      FG0=16777215
      BG0=0
-     ...</pre>
-
+     ...
+     ```
   4. Restart EditPad Pro if you had it opened.
 
 Kudos:
