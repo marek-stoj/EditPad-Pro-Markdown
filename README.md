@@ -15,8 +15,7 @@ Installation:
      [SyntaxColors]
      Count=2
      Name0=Paper Light
-     Name1=Paper Dark
-     </pre>
+     Name1=Paper Dark</pre>
 
   4. Also inside this `ini` file add color palette sections (copied from provided `Colors_*.ini` files). Remember to number them appropriately, eg.:
      <pre>
@@ -35,8 +34,7 @@ Installation:
      [SyntaxColorsRegex1]
      FG0=16777215
      BG0=0
-     ...
-     </pre>
+     ...</pre>
 
   4. Restart EditPad Pro if you had it opened.
 
