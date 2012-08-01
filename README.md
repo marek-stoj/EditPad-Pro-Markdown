@@ -1,7 +1,7 @@
 EditPad-Pro-Markdown
 ====================
 
-Custom Markdown syntax coloring scheme for EditPad Pro.
+Custom [Markdown][md-homepage] syntax coloring scheme for [EditPad Pro][editpad-homepage].
 
 Installation:
 -------------
@@ -16,6 +16,8 @@ Installation:
 Count=2
 Name0=Paper Light
 Name1=Paper Dark
+Name2=Fresh Air
+Name3=Night
 ```
 
   4. Also inside this `ini` file add color palette sections (copied from provided `Colors_*.ini` files). Remember to number them appropriately, eg.:
@@ -42,12 +44,12 @@ BG0=0
 Kudos:
 ------
 
-  - [Markdown project][md-homepage]
-  - [EditPad Pro][editpad-homepage]
-  - [Mou][mou-homepage]
-  - [Large Markdown example][md-example]
+  - [EditPad Pro][editpad-homepage] -- for being the most awesomest text editor on the planet.
+  - [Markdown project][md-homepage] -- for not having to type those angle brackets anymore.
+  - [Mou][mou-homepage] -- for creating great color palettes.
+  - [Large Markdown example][md-example] -- for being useful during testing.
   
-  [md-homepage]: http://daringfireball.net/projects/markdown/
   [editpad-homepage]: http://www.editpadpro.com/
+  [md-homepage]: http://daringfireball.net/projects/markdown/
   [mou-homepage]: http://mouapp.com/
   [md-example]: http://www.unexpected-vortices.com/sw/gouda/quick-markdown-example.html

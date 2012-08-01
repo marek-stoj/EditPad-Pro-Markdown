@@ -14,38 +14,38 @@ TRUE
 An h1 header
 ============
 
-Paragraphs are separated by a blank line.
+Paragraphs are -- separated --- by a blank line. HTML entities: &gt; &larr;  
+Lorem ipsum dolor. [A link](http://www.marekstoj.com).
+
+An h2 header
+------------
+
+![An image](http://lorempixel.com/output/abstract-q-c-32-32-9.jpg "Lorem Pixel").
 
 2nd paragraph. *Italic*, **bold**, `monospace`. Itemized lists
 look like:
 
   * this one
   * that one
-  * the other one
-
-Note that --- not considering the asterisk --- the actual text
-content starts at 4-columns in.
 
 > Block quotes are
 > written like so.
->
-> They can span multiple paragraphs,
-> if you like.
+
+[link-ref]: http://www.marekstoj.com "My Homepage"
+
+-----------
 
 Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex. "it's all in
 chapters 12--14"). Three dots ... will be converted to an ellipsis.
 
-An h2 header
-------------
+### An h3 header
 
 Here's a numbered list:
 
  1. first item
  2. second item
- 3. third item
 
-Note again how the actual text starts at 4 columns in (4 characters
-from the left side). Here's a code sample:
+Here's a `code` sample:
 
     # Let me re-iterate ...
     for i in 1 .. 10 { do-something(i) }
