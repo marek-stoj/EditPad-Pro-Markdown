@@ -41,6 +41,15 @@ BG0=0
 ```
   4. Restart EditPad Pro if you had it opened.
 
+Screenshots:
+------------
+
+![Fresh Air](https://lh3.googleusercontent.com/-DPNPuxj_E_k/UBlyPZ20HcI/AAAAAAAACDI/0nf9FfPf288/s288/ss-fresh-air.png)  
+![Night](https://lh5.googleusercontent.com/-eZYMpLgpqFY/UBlyPd7emPI/AAAAAAAACDM/ECr6D3fbyoE/s288/ss-night.png)  
+![Paper Light](https://lh5.googleusercontent.com/-8iay3b2c0mQ/UBlyP9akdhI/AAAAAAAACDU/bipUTcB4ouA/s288/ss-paper-light.png)  
+![Paper Dark](https://lh4.googleusercontent.com/-HWklrPd4qfA/UBlyPQF9i6I/AAAAAAAACDQ/aGmw-xtvmVs/s288/ss-paper-dark.png)  
+
+
 Kudos:
 ------
 
