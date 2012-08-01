@@ -20,7 +20,7 @@ Name2=Fresh Air
 Name3=Night
 ```
 
-  4. Also inside this `ini` file add color palette sections (copied from provided `Colors_*.ini` files). Remember to number them appropriately, eg.:
+  4. Also inside this `ini` file add color palette sections (copied from provided `ColorPalettes\*.ini` files). Remember to number them appropriately, eg.:
 ```ini
 [SyntaxColors0]
 FG1=-16777202
