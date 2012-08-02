@@ -10,7 +10,7 @@ TRUE
 <!--
 -->
 0
-117
+123
 An h1 header
 ============
 
@@ -49,6 +49,12 @@ Here's a `code` sample:
 
     # Let me re-iterate ...
     for i in 1 .. 10 { do-something(i) }
+
+And another one (using `backticks`):
+
+```csharp
+class SomeClass { }
+```
 
 As you probably guessed, indented 4 spaces. By the way, instead of
 indenting the block, you can use delimited blocks, if you like:
@@ -130,7 +136,7 @@ math should get its own line and be put in in double-dollarsigns:
 $$I = \int \rho R^{2} dV$$
 0
 TRUE
-29
+30
 Atx header 1
 
 ^#[^#].*$
@@ -471,11 +477,31 @@ close
 
 FALSE
 
-Code block
+Code block (indented)
 
 ^(    |\t).*$
 TRUE
 FALSE
+32
+0
+
+
+0
+FALSE
+FALSE
+TRUE
+FALSE
+
+
+
+
+FALSE
+
+Code block (backticked)
+
+ {0,3}```[^\r\n]*?(\r|\n|\r\n|\n\r).*?```
+TRUE
+TRUE
 32
 0
 
