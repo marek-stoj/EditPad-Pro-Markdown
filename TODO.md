@@ -16,3 +16,5 @@
 
     This should not be treated
     as code.
+
+7. There are performance issues with files containing long lines.
