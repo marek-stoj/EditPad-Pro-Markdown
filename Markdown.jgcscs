@@ -119,6 +119,26 @@ Lorem ipsum ...
 0
 TRUE
 34
+Code block (indented)
+
+^(    |\t).*$
+TRUE
+FALSE
+32
+0
+
+
+0
+FALSE
+FALSE
+TRUE
+FALSE
+
+
+
+
+FALSE
+
 E-mail
 
 [ \t]*<([A-Z0-9._%+-]++@(?:[A-Z0-9-]++\.)++[A-Z]{2,6}+)>
@@ -141,7 +161,7 @@ FALSE
 
 HTML solo tag
 
-<(area|base|br|col|hr|img|input|link|meta|param)[^\r\n/]*?/?>
+<(area|base|br|col|hr|img|input|link|meta|param)[^\r\n]*?/?>
 TRUE
 FALSE
 8
@@ -161,7 +181,7 @@ FALSE
 
 HTML opening tag (invalid)
 
-<[a-z][^\r\n/]*?/>
+<[a-z][^\r\n]*?/>
 TRUE
 FALSE
 8
@@ -181,7 +201,7 @@ FALSE
 
 HTML opening tag
 
-[ \t]*<[a-z][^\r\n/]*?(?<!/)>
+[ \t]*<[a-z][^\r\n]*?(?<!/)>
 TRUE
 FALSE
 8
@@ -559,26 +579,6 @@ FALSE
 
 FALSE
 
-Code block (indented)
-
-^(    |\t).*$
-TRUE
-FALSE
-32
-0
-
-
-0
-FALSE
-FALSE
-TRUE
-FALSE
-
-
-
-
-FALSE
-
 Code block (backticked)
 
  {0,3}```[^\r\n]*?(\r|\n|\r\n|\n\r).*?```
@@ -808,7 +808,67 @@ FALSE
 0
 
 
-1
+4
+HTML solo tag
+
+<(area|base|br|col|hr|img|input|link|meta|param)[^\r\n]*?/?>
+TRUE
+FALSE
+8
+0
+
+
+0
+FALSE
+FALSE
+FALSE
+FALSE
+
+
+
+
+FALSE
+
+HTML opening tag (invalid)
+
+<[a-z][^\r\n]*?/>
+TRUE
+FALSE
+8
+0
+
+
+0
+FALSE
+FALSE
+FALSE
+FALSE
+
+
+
+
+FALSE
+
+HTML opening tag
+
+[ \t]*<[a-z][^\r\n]*?(?<!/)>
+TRUE
+FALSE
+8
+0
+
+
+3
+FALSE
+FALSE
+FALSE
+FALSE
+
+
+
+
+FALSE
+
 HTML closing tag
 
 [ \t]*</[a-z][^\r\n/]*?>
