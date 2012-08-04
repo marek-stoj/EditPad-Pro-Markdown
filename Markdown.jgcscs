@@ -141,7 +141,7 @@ FALSE
 
 HTML opening tag (invalid)
 
-<[^\r\n/]*?/>
+<[a-z][^\r\n/]*?/>
 TRUE
 FALSE
 8
@@ -161,7 +161,7 @@ FALSE
 
 HTML opening tag
 
-[ \t]*<[^\r\n/]*?(?<!/)>
+[ \t]*<[a-z][^\r\n/]*?(?<!/)>
 TRUE
 FALSE
 8
@@ -181,8 +181,8 @@ FALSE
 
 HTML closing tag
 
-[ \t]*</[^\r\n/]*?>
-FALSE
+[ \t]*</[a-z][^\r\n/]*?>
+TRUE
 FALSE
 8
 0
@@ -421,7 +421,7 @@ FALSE
 
 Strong 1
 asterisks
-(?<open>(?<!\\)\*\*(?! ))[^\*]+?(?<close>(?<![ \\])\*\*)
+(?<open>(?<!\\)\*\*(?! ))([^\*\r\n]|(\r\n(?!\r\n))|(\n(?!\n)))+?(?<close>(?<![ \\])\*\*)
 TRUE
 TRUE
 12
@@ -433,15 +433,15 @@ TRUE
 FALSE
 FALSE
 FALSE
-open
-close
+
+
 
 
 FALSE
 
 Strong 2
 underscores
-(?<open>(?<!\\)__(?! ))[^_]+?(?<close>(?<![ \\])__)
+(?<open>(?<!\\)__(?! ))([^_\r\n]|(\r\n(?!\r\n))|(\n(?!\n)))+?(?<close>(?<![ \\])__)
 TRUE
 TRUE
 12
@@ -453,15 +453,15 @@ TRUE
 FALSE
 FALSE
 FALSE
-open
-close
+
+
 
 
 FALSE
 
 Emphasis 1
 asterisk
-(?<open>(?<!\\)\*(?! ))[^\*]+?(?<close>(?<![ \\])\*)
+(?<open>(?<!\\)\*(?! ))([^\*\r\n]|(\r\n(?!\r\n))|(\n(?!\n)))+?(?<close>(?<![ \\])\*)
 TRUE
 TRUE
 3
@@ -473,15 +473,15 @@ TRUE
 FALSE
 FALSE
 FALSE
-open
-close
+
+
 
 
 FALSE
 
 Emphasis 2
 underscore
-(?<open>(?<!\\)_(?! ))[^_]+?(?<close>(?<![ \\])_)
+(?<open>(?<!\\)_(?! ))([^_\r\n]|(\r\n(?!\r\n))|(\n(?!\n)))+?(?<close>(?<![ \\])_)
 TRUE
 TRUE
 3
@@ -493,15 +493,15 @@ TRUE
 FALSE
 FALSE
 FALSE
-open
-close
+
+
 
 
 FALSE
 
 Code inline single
 
-(?<open>`)[^`]+?(?<close>`)
+(?<open>`)([^`\r\n]|(\r\n(?!\r\n))|(\n(?!\n)))+?(?<close>`)
 TRUE
 TRUE
 32
@@ -513,15 +513,15 @@ FALSE
 FALSE
 FALSE
 FALSE
-open
-close
+
+
 
 
 FALSE
 
 Code inline double
 
-(?<open>``)[^`].*?(?<close>``)
+(?<open>``)[^`]([^\r\n]|(\r\n(?!\r\n))|(\n(?!\n)))*?(?<close>``)
 TRUE
 TRUE
 32
@@ -533,8 +533,8 @@ FALSE
 FALSE
 FALSE
 FALSE
-open
-close
+
+
 
 
 FALSE
@@ -811,8 +811,8 @@ FALSE
 1
 HTML closing tag
 
-[ \t]*</[^\r\n/]*?>
-FALSE
+[ \t]*</[a-z][^\r\n/]*?>
+TRUE
 FALSE
 8
 0
