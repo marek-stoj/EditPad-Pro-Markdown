@@ -71,8 +71,19 @@ Installation:
    BG0=0
    ; ...
    ```
-
+ 
  5. Restart EditPad Pro if you had it opened.
+ 
+ 6. In EditPad Pro go to _Options &rarr; Configure File Types_ and add a new file type titled _Markdown Document_ for these extensions: `*.markdown`, `*.mdown`, `*.mkdn`, `*.md`, `*.mkd`, `*.mdwn`, `*.mdtxt`, `*.mdtext`, `*.text`.
+ 
+ 7. Switch to the _Colors and syntax_ tab and select the _Markdown_ scheme along with a color palette of your choice.
+ 
+ 8. You might also want to disable the following options:
+
+   * _highlight matching brackets touched by the cursor_,
+   * _highlight innermost pair of brackets containing the cursor_.
+ 
+ 9. And that's it.
 
 Kudos:
 ------
