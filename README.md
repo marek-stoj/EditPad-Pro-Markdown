@@ -79,7 +79,6 @@ Installation:
  7. Switch to the _Colors and syntax_ tab and select the _Markdown_ scheme along with a color palette of your choice.
  
  8. You might also want to disable the following options:
-
    * _highlight matching brackets touched by the cursor_,
    * _highlight innermost pair of brackets containing the cursor_.
  
